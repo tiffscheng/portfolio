@@ -87,4 +87,14 @@ footer>p:nth-child(2){
     body{
         margin-left: 4%;
     }
+
+    .left-nav{
+        text-align: left;
+        float: left;
+        position: fixed;
+    }
+
+    .right-main{
+        float: right;
+    }
 }
