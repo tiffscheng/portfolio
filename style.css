@@ -5,8 +5,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.container {
-    
+.pagecontainer {
+    max-width: 1800px;
 }
 
 h1{
