@@ -6,7 +6,7 @@ body {
 }
 
 .pagecontainer {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -16,12 +16,14 @@ h1{
 }
 
 .left-nav{
+    background-color: #f3eaf7;
+    height: 100%;
     text-align: left;
 }
 
 img.photo{
-    max-width: 200px;
     margin-top: 50px;
+    max-width: 200px;
 }
 
 img.icons{
