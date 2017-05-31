@@ -8,6 +8,7 @@ body {
 h1{
     font-family: 'Vidaloka', sans-serif;
     font-size: 60px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .left-nav{
