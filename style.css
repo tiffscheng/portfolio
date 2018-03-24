@@ -27,7 +27,11 @@ section {
 }
 
 header{
-    background-color: #d7c3e3;
+    background: #d7c3e3; /* Old browsers */
+    background: -moz-linear-gradient(-25deg, #d7c3e3 0%, #e4d0f0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-25deg, #d7c3e3 0%,#e4d0f0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(155deg, #d7c3e3 0%,#e4d0f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7c3e3', endColorstr='#e4d0f0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.3);
     padding: 2em 0;
 }
