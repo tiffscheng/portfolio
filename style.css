@@ -11,6 +11,13 @@ a, a:hover, a:active, a:visited{
     text-transform: uppercase;
 }
 
+.btn{
+    border-color: #d0d0d0;
+    border-radius: 1.2em;
+    box-shadow: 0 2px 5px -2px rgba(0,0,0,0.3);
+    padding: .5em 1em;
+}
+
 h1{
     font-family: 'Vidaloka', "Times New Roman", sans-serif;
     font-size: 60px;
@@ -32,7 +39,7 @@ header{
     background: -webkit-linear-gradient(-25deg, #d7c3e3 0%,#e4d0f0 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(155deg, #d7c3e3 0%,#e4d0f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7c3e3', endColorstr='#e4d0f0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
     padding: 2em 0;
 }
 
