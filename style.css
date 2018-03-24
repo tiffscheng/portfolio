@@ -26,9 +26,10 @@ section {
     padding: 2em 5em;
 }
 
-section:nth-child(1){
-    background-color: #c9b6d4;
-    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.3);
+header{
+    background-color: #d7c3e3;
+    box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.3);
+    padding: 2em 0;
 }
 
 p.tags{
