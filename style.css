@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Vidolaka|Raleway|Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Rubik|Source+Sans+Pro');
 
 body {
     color: #231f20;
-    font-family: 'Noto Sans', Arial, sans-serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 a, a:hover, a:active, a:visited{
-    font-family: 'Raleway', Arial, sans-serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
     font-weight: bold;
     letter-spacing: .1em;
     text-transform: uppercase;
@@ -25,7 +25,7 @@ h1{
 }
 
 h2,h3,h4{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 section {
@@ -34,13 +34,15 @@ section {
 }
 
 header{
-    background: #d7c3e3; /* Old browsers */
-    background: -moz-linear-gradient(-25deg, #d7c3e3 0%, #e4d0f0 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-25deg, #d7c3e3 0%,#e4d0f0 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(155deg, #d7c3e3 0%,#e4d0f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*background: #d7c3e3;
+    background: -moz-linear-gradient(-25deg, #d7c3e3 0%, #e4d0f0 100%);
+    background: -webkit-linear-gradient(-25deg, #d7c3e3 0%,#e4d0f0 100%);
+    background: linear-gradient(155deg, #d7c3e3 0%,#e4d0f0 100%);*/
+    background: url('resources/images/laptop-mug.jpg') center center no-repeat;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7c3e3', endColorstr='#e4d0f0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
     padding: 2em 0;
+    min-height: 550px;
 }
 
 p.tags{
