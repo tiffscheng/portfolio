@@ -46,6 +46,10 @@ header{
     min-height: 550px;
 }
 
+header h1 {
+    color: #fff;
+}
+
 p.tags{
     color: #777;
     font-size: 0.8em;
