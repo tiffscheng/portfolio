@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Rubik|Source+Sans+Pro|Vidaloka');
 
 body{
     color: #231f20;
@@ -20,7 +20,7 @@ a, a:hover, a:active, a:visited{
 }
 
 h1{
-    font-family: 'Rubik', "Times New Roman", sans-serif;
+    font-family: 'Vidaloka', "Times New Roman", sans-serif;
     font-size: 60px;
     -webkit-font-smoothing: antialiased;
 }
