@@ -54,7 +54,7 @@
         <h2>My Passions</h2>
         <p>
             One of my greatest motivations is the desire to solve problems.<br>
-            Along with a mentality that nothing is ever perfect, I'm always finding ways to make improvements to every last detail.
+            Along with a mentality that nothing is ever perfect, I'm always finding ways to make improvements to every last detail.<br>
             I'm also a people pleaser, and I love to help people in any way that I can.<br>
             My personal interests include:<br>
             sports and fitness - playing flag football,<br>
@@ -147,6 +147,27 @@
             <a href="http://www.instagram.com/tifcheng" title="IG: @tifcheng" target="_blank"><img src="resources/images/icons/ig-icon.png" class="icons"></a>
             <a href="https://www.yelp.com/user_details?userid=Wc8rjNAPjbv_IB8Isrgk-A" title="Yelp/TiffanyCheng" target="_blank"><img src="resources/images/icons/yelp-icon.png" class="icons"></a>
         </p>
+        <form id="ajax" method="post" action="resources/contact.php">
+            <div class="field">
+                <label for="name" class="hidden">Name:</label>
+                <input class="form-control" type="text" id="name" name="name" placeholder="Name" required>
+            </div>
+
+            <div class="field">
+                <label for="email" class="hidden">Email:</label>
+                <input class="form-control" type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="field">
+                <label for="message" class="hidden">Message:</label>
+                <textarea class="form-control" id="message" name="message" placeholder="Enter your message here.." required></textarea>
+            </div>
+
+            <div class="field">
+                <button class="form-control" type="submit">Send</button>
+            </div>
+        </form>
+        <div id="form-messages"></div>
     </div>
 </section>
     <!-- Begin Modals -->
@@ -514,6 +535,7 @@
 <script type="text/javascript" src="resources/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="resources/javascript/sort.js"></script>
 <script type="text/javascript" src="resources/javascript/functions.js"></script>
+<script type="text/javascript" src="resources/javascript/app.js"></script>
 
 </body>
 </html>
