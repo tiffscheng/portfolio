@@ -111,6 +111,11 @@ a>img:hover{
 
 form {
     max-width: 488px;
+    padding: 2em 0;
+}
+
+form .field {
+    margin: .5em 0;
 }
 
 form .field label {
