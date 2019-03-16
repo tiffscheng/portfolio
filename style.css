@@ -34,7 +34,7 @@ h3,h4{
     font-family: 'Rubik', sans-serif;
 }
 
-section {
+header, section {
     width: 100%;
     padding: 2em 5em;
 }
