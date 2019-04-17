@@ -49,13 +49,16 @@ header{
     background-blend-mode: soft-light;
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7c3e3', endColorstr='#e4d0f0',GradientType=1 ); IE6-9 fallback on horizontal gradient */
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
-    padding: 2em 0;
     height: 100vh;
     min-height: 500px;
 }
 
 header h1 {
     color: #fff;
+}
+
+section#about, section#contact {
+    background-color: #ddd;
 }
 
 p.tags{
@@ -145,7 +148,7 @@ form button[type=submit]:hover{
 }
 
 footer{
-    background-color: #d0d0d0;
-    color: #262626;
+    background-color: #333;
+    color: #dfdfdf;
     padding: 2em 0;
 }
