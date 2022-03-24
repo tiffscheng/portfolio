@@ -6,11 +6,9 @@ body{
     font-size: 16px;
 }
 a, a:hover, a:active, a:visited{
-    color: #999;
-    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #3868d7;
     font-weight: bold;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .btn{
@@ -56,6 +54,13 @@ header{
 
 header h1 {
     color: #fff;
+}
+
+header a, header a:hover, header a:active, header a:visited{
+    color: #999;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
 }
 
 section#about, section#contact {
