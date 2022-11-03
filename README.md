@@ -1,3 +1,3 @@
 # portfolio
 
-This is a work in progress. Please continue to check back as the template is updated and more projects are added. Thanks!
+A new version of this portfolio is currently under production. Please go to https://tiffscheng.github.io/portfolio/old to see an older version.
