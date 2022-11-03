@@ -1,5 +1,5 @@
 <template>
-  <HeadComponent msg="Welcome to Your Vue.js App"/>
+  <HeadComponent msg="Hi, I'm Tiffany :)"/>
 </template>
 
 <script>
@@ -14,12 +14,21 @@ export default {
 </script>
 
 <style>
+html {
+  height: 100%;
+  background: #fff url('@/assets/construction-tape.png') no-repeat left bottom;
+}
+@media (max-width: 768px) {
+  html {
+    background-size: 150%;
+  }
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #083830;
   margin-top: 60px;
 }
 </style>

@@ -1,6 +1,12 @@
 <template>
   <div>
-    <h1>Hi, I'm Tiffany :)</h1>
+    <img src="@/assets/port.jpg" id="profile">
+    <h1>{{msg}}</h1>
+    <ul>
+      <li v-for="link in links" :key="link">
+        <a :href="link.url">{{link.title}}</a>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -8,15 +14,25 @@
 export default {
   name: 'HeadComponent',
   props: {
-    msg: String
+    'msg': String
+  },
+  data() {
+    return {
+      'links': [
+      {
+        'title': 'See the old version',
+        'url': '/portfolio'
+      },]
+    }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+img#profile {
+  border-radius: 50%;
+  width: 200px;
 }
 ul {
   list-style-type: none;
@@ -27,6 +43,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #178572;
 }
 </style>
