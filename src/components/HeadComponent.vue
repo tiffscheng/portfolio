@@ -21,7 +21,7 @@ export default {
       'links': [
       {
         'title': 'See the old version',
-        'url': '/portfolio'
+        'url': '/portfolio/old'
       },]
     }
   }
