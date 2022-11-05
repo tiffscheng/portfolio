@@ -5,8 +5,9 @@
     "scripts": {
         "start": "npm run open",
         "open": "http-server -a localhost public -p 8080 ./ -o index.html",
+        "copy-old": "robocopy /s old dist/old",
         "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build",
+        "build": "vue-cli-service build && npm run copy-old",
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
