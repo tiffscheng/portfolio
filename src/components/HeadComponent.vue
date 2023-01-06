@@ -2,7 +2,7 @@
   <header>
     <div>
       <img src="@/assets/port.jpg" id="profile">
-      {{msg}}
+      <span class="hidden-xs">{{msg}}</span>
     </div>
     <ul>
       <li v-for="link in links" :key="link" :class="link.classes">
@@ -41,6 +41,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@media (max-width: 600px){
+  .hidden-xs {
+    display: none;
+  }
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -63,6 +68,7 @@ li {
   margin: 0 10px;
 }
 li.button a {
+  display: block;
   border-radius: 8px;
   background-color: #04265E;
   color: #fff;

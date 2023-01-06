@@ -43,9 +43,10 @@ export default {
   display: block;
   position: absolute;
   top: 0;
-  left: -4rem;
+  left: -2rem;
+  right: -2rem;
   height: 100%;
-  width: calc(100vw - 6rem);
+  width: calc(100% + 4rem);
   margin: 0 auto;
   border: 1px solid #05B091;
   border-radius: 8px;
