@@ -7,7 +7,7 @@
   <main>
     <IntroSection></IntroSection>
     <div class="scroll-down">
-      <a href="#samples">See my work</a><br>
+      <a href="#samples">See past projects</a><br>
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 50 25" class="bounce">
         <g id="chevron-down" data-name="chevron-down" transform="translate(50 25) rotate(180)" fill="none">
           <path d="M22.172,2.828a4,4,0,0,1,5.657,0L43.172,18.172A4,4,0,0,1,40.343,25H9.657a4,4,0,0,1-2.828-6.828Z" stroke="none"/>

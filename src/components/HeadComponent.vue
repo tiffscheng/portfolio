@@ -32,14 +32,13 @@ export default {
       {
         'classes': 'button',
         'title': 'Download Resume',
-        'url': '@/assets/TiffanyCheng_resume.pdf'
+        'url': '@/assets/TiffanyCheng_Resume_UX_2-2.pdf'
       }]
     }
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @media (max-width: 600px){
   .hidden-xs {

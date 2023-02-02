@@ -2,8 +2,8 @@
     <div id="intro">
       <div class="intro-container">
         <h1>Tiffany Cheng:</h1>
-        <p>A Front-end Developer, UI/UX Designer, and UX Specialist<span class="next-line"> </span>
-        with over 8 years of professional experience- a <span class="rainbow">unicorn</span> of sorts.</p>
+        <p>A UI Designer with a strong background in Front-end Development and UX<span class="next-line"> </span>
+        and over 8 years of professional experience- a <span class="rainbow">unicorn</span> of sorts.</p>
         <p>#opentowork</p>
       </div>
     </div>
