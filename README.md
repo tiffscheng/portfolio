@@ -1,3 +1,3 @@
 # portfolio
 
-A new version of this portfolio is currently under production. Please go to https://tiffscheng.github.io/portfolio/old to see an older version.
+A new version of this portfolio is currently under production. Please go to https://tiffany-cheng.myportfolio.com/ to see a working version.
